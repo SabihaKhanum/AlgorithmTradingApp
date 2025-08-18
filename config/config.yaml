@@ -1,0 +1,35 @@
+trading:
+  symbols: 
+    - "AAPL"
+    - "MSFT" 
+    - "GOOGL"
+    - "TSLA"
+    - "NVDA"
+  initial_capital: 100000
+  strategy: "MovingAverageCrossover"
+  
+strategy:
+  short_window: 10
+  long_window: 20
+  rsi_oversold: 30
+  rsi_overbought: 70
+  volume_threshold: 1.5
+  min_confidence: 60
+
+risk_management:
+  max_position_size: 0.1      # 10% of portfolio per position
+  max_portfolio_risk: 0.02    # 2% portfolio risk per trade
+  stop_loss_pct: 0.05         # 5% stop loss
+  take_profit_pct: 0.10       # 10% take profit
+  max_daily_loss: 0.05        # 5% max daily loss
+  max_drawdown: 0.15          # 15% max drawdown
+
+data:
+  update_interval: 60         # seconds
+  min_trade_interval: 300     # seconds (5 minutes)
+  cache_duration: 60          # seconds
+
+logging:
+  level: "INFO"
+  file: "logs/trading_bot.log"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
