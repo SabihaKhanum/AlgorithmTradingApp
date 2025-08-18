@@ -8,7 +8,7 @@ import os
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from strategies import MovingAverageCrossoverStrategy, MeanReversionStrategy, create_strategy
+from src.strategies import MovingAverageCrossoverStrategy, MeanReversionStrategy, create_strategy
 
 class TestMovingAverageCrossoverStrategy(unittest.TestCase):
     def setUp(self):
