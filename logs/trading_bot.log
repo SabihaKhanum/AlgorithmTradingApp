@@ -34,3 +34,31 @@
 2025-08-20 00:00:43,997 - INFO - Final Cash: $90,066.99
 2025-08-20 00:00:43,998 - INFO - Stock Value: $11,868.44
 2025-08-20 00:00:43,998 - INFO - ==================================================
+2025-08-20 00:05:05,632 - INFO - Trading bot logging initialized
+2025-08-20 00:05:05,632 - INFO - Trading bot started in backtest mode
+2025-08-20 00:05:05,632 - INFO - Starting backtest for period: 1yr
+2025-08-20 00:05:07,393 - ERROR - AAPL: Period '1yr' is invalid, must be one of: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+2025-08-20 00:05:07,625 - ERROR - MSFT: Period '1yr' is invalid, must be one of: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+2025-08-20 00:05:07,812 - ERROR - GOOGL: Period '1yr' is invalid, must be one of: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+2025-08-20 00:05:08,011 - ERROR - TSLA: Period '1yr' is invalid, must be one of: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+2025-08-20 00:05:08,257 - ERROR - NVDA: Period '1yr' is invalid, must be one of: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+2025-08-20 00:05:08,257 - ERROR - No historical data available for backtesting
+2025-08-20 00:05:19,106 - INFO - Trading bot logging initialized
+2025-08-20 00:05:19,106 - INFO - Trading bot started in backtest mode
+2025-08-20 00:05:19,106 - INFO - Starting backtest for period: 9mo
+2025-08-20 00:05:21,308 - INFO - Backtest period: 2024-11-19 to 2025-08-19
+2025-08-20 00:05:23,003 - INFO - BUY 59 shares of GOOGL at $168.36
+2025-08-20 00:05:23,004 - INFO - Risk adjustment: Position size adjusted from 237 to 59
+2025-08-20 00:05:23,987 - INFO - ==================================================
+2025-08-20 00:05:23,987 - INFO - BACKTEST RESULTS
+2025-08-20 00:05:23,987 - INFO - ==================================================
+2025-08-20 00:05:23,987 - INFO - Strategy: MovingAverageCrossover
+2025-08-20 00:05:23,987 - INFO - Initial Capital: $100,000.00
+2025-08-20 00:05:23,987 - INFO - Final Portfolio Value: $101,932.48
+2025-08-20 00:05:23,987 - INFO - Total Return: 1.93%
+2025-08-20 00:05:23,987 - INFO - Sharpe Ratio: 0.00
+2025-08-20 00:05:23,987 - INFO - Volatility: 0.00
+2025-08-20 00:05:23,987 - INFO - Total Trades: 1
+2025-08-20 00:05:23,987 - INFO - Final Cash: $90,066.99
+2025-08-20 00:05:23,987 - INFO - Stock Value: $11,865.49
+2025-08-20 00:05:23,987 - INFO - ==================================================

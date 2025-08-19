@@ -1,0 +1,20 @@
+{
+  "strategy": "MovingAverageCrossover",
+  "initial_capital": 100000,
+  "final_value": 101932.47506713867,
+  "total_return_pct": 1.932475067138672,
+  "sharpe_ratio": 0,
+  "volatility": 0,
+  "total_trades": 1,
+  "trade_history": [
+    {
+      "timestamp": "2025-05-21 01:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "shares": 59,
+      "price": 168.35618591308594,
+      "total": 9933.01496887207
+    }
+  ],
+  "performance_history": []
+}
