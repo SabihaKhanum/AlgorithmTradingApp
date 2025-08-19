@@ -1,0 +1,2 @@
+timestamp,symbol,action,shares,price,total,reason,portfolio_value
+2025-05-21 01:00:00-04:00,GOOGL,BUY,59,168.35618591308594,9933.01496887207,Bullish MA crossover; Volume confirmation; Uptrend confirmed,100000

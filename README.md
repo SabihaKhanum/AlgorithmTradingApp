@@ -248,3 +248,23 @@ def get_technical_indicators(self, symbol, window=20):
 
 This software is for educational purposes. Trading involves substantial risk of loss. Past performance does not guarantee future results. Use at your own risk.
                 
+
+# 1. Quick validation
+python -m pytest tests/ -v
+
+# 2. Fast backtest
+python main.py --mode backtest --period 1mo
+
+# 3. Full backtest
+python main.py --mode backtest --period 6mo
+
+# 4. Paper trading (leave running)
+python main.py --mode paper &
+
+# 5. Launch dashboard (separate terminal)
+python main.py --dashboard
+
+# 6. Monitor for a few hours/days
+
+# 7. If all good, try live with small amount
+python main.py --mode live  # REAL MONEY!
